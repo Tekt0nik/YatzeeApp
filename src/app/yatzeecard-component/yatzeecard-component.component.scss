@@ -1,0 +1,58 @@
+.card {
+    font-family: 'Comfortaa', cursive;
+    padding-left: 0px;
+    padding-top: 0px;
+    width: 90%;
+    margin: auto;
+    height: 100%;
+    text-align: left;
+    position: relative;
+    background-color: transparent;
+    color: #FF3131;
+    cursor: pointer;
+    text-decoration: none;
+
+    border: currentColor 0.25em solid;
+    padding: 0.25em 1em;
+    border-radius: 0.25em;    
+
+    text-shadow:  0 0 0.2em white, 0 0 3em currentColor;
+    box-shadow: inset 0 0 .7em #FF3131, 0 0 .5em #FF3131;
+  }
+  .maincontainer{
+      position: relative;
+      width: 90%;
+      margin-top: 10px;
+      height: 70px;
+      margin-left: 2.5%;
+      margin-right: 2.5%;
+  }
+
+.neon-card{
+    font-family: 'Comfortaa', cursive;
+    padding-left: 0px;
+    padding-top: 0px;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    height: 100%;
+    text-align: left;
+    position: relative;
+    background-color: transparent;
+    color: #FF3131;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+
+    border: currentColor 0.25em solid;
+    padding: 0.25em 1em;
+    border-radius: 1em;    
+
+    text-shadow:  0 0 0.2em white, 0 0 3em currentColor;
+    box-shadow: inset 0 0 .7em #FF3131, 0 0 .5em #FF3131;
+}
+.card-container{
+    width: 20%;
+    height: 100%;
+    background-color: green;
+}
